@@ -1,1 +1,12 @@
-<h1>Page</h1>
+<h1>Page Controller</h1>
+
+<div>
+  <%= button_to 'Info', { action: 'info'} %>
+  <%= button_to 'Warn', { action: 'warn'} %>
+  <%= button_to 'Error', { action: 'error'} %>
+  <%= button_to 'Exception', { action: 'exception'} %>
+  <%= button_to 'Rails.logger.info', { action: 'rails_info'} %>
+    <%= button_to 'Rails.logger.error', { action: 'rails_error'} %>
+<div>
+
+
