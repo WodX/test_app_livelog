@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/runtimerevolution/live_log
-  revision: f4b4309a82e556a6f7b218a50dc4baf199b195bd
-  branch: add-class-track-logs
+  revision: 6f9d24c38f5a05850b876d2ee6bf8c76b5b63079
+  branch: main
   specs:
     live_log (1.0.0)
       redis
